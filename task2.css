@@ -1,0 +1,134 @@
+.body_class {
+    font-family: 'Nunito', sans-serif;
+    background-color: #565353;
+    color: #d6cece;
+}
+.name-in-header 
+{
+    font-family: 'Dancing Script', cursive;
+    margin-left: 20px;
+    margin-right: 800px;
+}
+.flex-container {
+    background-color: #333;
+    color: #d6cece;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.flex-item {
+    margin-left: 20px;
+    margin-top: 30px;
+    vertical-align: top;
+    font-size: larger;
+    list-style-type: none;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 0.5px;
+}
+
+.headings {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.about-section {
+    display: grid;
+    grid-template-columns: 1.6fr 1.4fr;
+    vertical-align: top;
+    font-size: large;
+    margin-left: 5px;
+}
+
+.astrid-pic {
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
+    margin-left: 250px;
+    border-radius: 100px;
+    border-width: 3px;
+    border-color: #333;
+    border-style: double;
+}
+.skills-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    vertical-align: top;
+    margin-left: 5px;
+}
+
+.skills-info {
+    margin-top: 150px;
+    font-size: large;
+    margin-bottom: 10px;
+}
+.skills-pic {
+    margin-left: 50px;
+    width: 270px;
+    height : 270px;
+}
+.pic {
+    vertical-align: middle;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+.info {
+    color: #d6cece;
+}
+
+.headings2 {
+    font-size: large;
+    font-weight: bolder;
+}
+.project-section1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin-top: 40px;
+    font-size: small;
+}
+.project-section2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    font-size: small;
+}
+.project-item {
+    text-align: left;
+    margin-right : 5px;
+    margin-left : 5px;
+    border : 3px solid #141414; 
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding : 5px;
+    background-color: #434141;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+}
+.resume-button{
+    background-color: #333;
+    color : d6cece;
+    border: none;
+    width: 130px;
+    height: 60px;
+    border-radius: 40px;
+    cursor: pointer;
+    border-right: 10px;
+    transition: opacity 1s;
+    font-size: large;
+}
+.resume-contact-section
+{
+    display : grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+.contact-pic {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+.resume-pic {
+    display: inline-block;
+    text-align: text;
+    margin-bottom: 10px;
+}
